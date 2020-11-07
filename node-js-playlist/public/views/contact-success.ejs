@@ -22,18 +22,11 @@
         
             <%- include('partials/nav'); %> 
             <h1>Welcome to the contact page ejs</h1>
-            <p>You won't find a website better anywhere else!</p>
-            <!-- <p><%= qs.person %></p> -->
+            <p>Thanks for getting in trouch!</p>
+            <p>You contacted <%= data.who %> in the <%= data.department %> department</p>
+            <p>We will reply to you at <%= data.email %></p>
 
-            <form id="contact-form" method="POST" action="/contact">
-                <label for="who">Who do you want to contact?</label>
-                <input type="text" name="who" value="<%= qs.person %>">
-                <label for="department">Which department?</label>
-                <input type="text" name="department" value="<%= qs.dept %>">
-                <label for="email">Enter your email here:</label>
-                <input type="text" name="email" />
-                <input type="submit" name="submit" />
-            </form>
+
 
         <!-- <script type="text/javascript" src="js/scripts.js"></script> -->
  
