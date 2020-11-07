@@ -25,10 +25,11 @@
             </div>
 
             <h1>Your Next Skating Adventure Awaits:</h1>
-            <div class="animated fadeInLeft main-container">
+            <div id="park-list">
             <form class="input" action="#" method="post">
               <div id="input-form">
                 <input type="text" name="zip" value="ZIP Code" id="zip" maxlength="5" autocomplete="off">
+                <br>
                 <br>
                 <select class="radius" id="radius">
                     <option value="default" disabled selected>Radius to search</option>
@@ -37,6 +38,8 @@
                       <option value="15">15 miles</option>
                       <option value="20">20 miles</option>
             </select>
+            <br>
+            <br>
                 <button id="submit" type="button" name="button">Submit</button>
               </div>
             </form>
@@ -46,7 +49,7 @@
             </div>
 
             <div id="found"></div>
-
+            <br>
             <div id="results"></div>
 
             <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->

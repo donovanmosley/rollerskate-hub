@@ -71,7 +71,6 @@ p {
 button{
     padding: 20px;
     width: 30%;
-    float: left;
     background: #23282e;
     border: 0;
     box-sizing: border-box;
@@ -80,9 +79,50 @@ button{
     font-size: 20px;
 }
 
-/* 
+/* Yelp api results styes */
+
+#park-list {
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#zip, #radius {
+    width: 70%;
+    align-items: center;
+    padding: 20px;
+    background: #181c22;
+    border: 0;
+    font-size: 20px;
+    color: #989898;
+    color: #fff;
+    text-align: center;
+}
+
+#submit {
+    padding: 20px;
+    width: 30%;
+    background: #23282e;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#found {
+    text-align: center;
+}
 
 
+#results {
+    display: flex;
+    flex-flow: row wrap;
+    height: 250px;
+    justify-content: space-evenly;
+}
 
 
- */
