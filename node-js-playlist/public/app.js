@@ -45,12 +45,20 @@
 
 var express = require('express');
 var bodyParser = require('body-parser');
+var todoController = require('./controllers/todoController');
 var app = express();
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false});
 
-app.set('view engine', 'ejs');  
+// sets up the template engine
+app.set('view engine', 'ejs'); 
+// servest up static files 
 app.use('/assets', express.static('assets'));
+app.use(express.static('./public'));
+
+
+// fires controllers
+todoController(app);
 
 app.get('/', function(req, res){
     res.render('index');
@@ -70,5 +78,6 @@ app.get('/profile/:name', function(req, res){
     res.render('profile', {person: req.params.name, data: data});
 });
 
+// Listens to port
 app.listen(3000);
 
