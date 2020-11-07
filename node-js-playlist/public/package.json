@@ -16,6 +16,7 @@
   "author": "Donovan Mosley",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }
