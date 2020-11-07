@@ -34,7 +34,7 @@ $(window).on("load", function() {
         // If our results are greater than 0, continue
         if (totalresults > 0){
             // Display a header on the page with the number of results
-            $('#found').append('<h5>We discovered ' + totalresults + ' results!</h5><br>');
+            $('#found').append('<h1>We discovered ' + totalresults + ' results!</h1><br>');
             // Itirate through the JSON array of 'businesses' which was returned by the API
             $.each(data.businesses, function(i, item) {
                 // Store each business's object in a variable
@@ -54,7 +54,7 @@ $(window).on("load", function() {
           });
         } else {
             // If our results are 0; no businesses were returned by the JSON therefor we display on the page no results were found
-            $('#results').append('<h5>We discovered no results!</h5>');
+            $('#results').append('<h1>We discovered no results!</h1>');
         }
       }  
     })  

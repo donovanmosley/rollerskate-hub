@@ -59,7 +59,7 @@ p {
 }
 
 #todo-table input[type="text"]{
-    width: 70%;
+    width: 95%;
     padding: 20px;
     background:#181c22;
     border: 0;
@@ -91,7 +91,7 @@ button{
 }
 
 #zip, #radius {
-    width: 70%;
+    width: 95%;
     align-items: center;
     padding: 20px;
     background: #181c22;
@@ -104,7 +104,7 @@ button{
 
 #submit {
     padding: 20px;
-    width: 30%;
+    width: 35%;
     background: #23282e;
     border: 0;
     box-sizing: border-box;
