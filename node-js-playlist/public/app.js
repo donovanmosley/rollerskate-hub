@@ -58,7 +58,7 @@ app.use(express.static('./public'));
 
 
 // fires controllers
-todoController(app);
+todoController(app);    
 
 app.get('/', function(req, res){
     res.render('index');

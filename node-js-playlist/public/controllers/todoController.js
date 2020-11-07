@@ -8,7 +8,7 @@ module.exports = function(app){
 
     });
 
-    app.delete('/index', function(req, res){
+    app.delete('/index/:item', function(req, res){
 
     });
 };
