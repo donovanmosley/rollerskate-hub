@@ -1,4 +1,4 @@
-// Ajax request for getting yelp api:
+// Ajax request for getting yelp api with radius search options:
 
 $(window).on("load", function() {
   var API_KEY = "NvnKjvhsKILrfEgu-GyzIu83rkw5GlAz-b5mQM3PQBpUAk6F9SNGEOjkEUJ456d91ho6zi4gO9IdK2wAlzsYjIFItK1HG8y3TPoTVXj4iEAc_VMJIrHYF-0Sw-KbX3Yx"

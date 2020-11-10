@@ -1,7 +1,7 @@
 // Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app
 // Maintenance Guide Section:
 
-fetch('manual.json')
+fetch('/assets/manual.json')
   .then(res => res.json())
   .then(data => appendData(data))
   .catch(error => console.error("Something went wrong with retreiving the manual data", error));
