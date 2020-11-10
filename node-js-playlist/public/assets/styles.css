@@ -19,6 +19,26 @@ p {
     text-align: center;
 }
 
+/* Selector menu - defines the layout for the dropdown container componenet as well as it's inner elements */
+
+.selectbox {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;s
+    resize: none;
+    overflow: hidden;
+}
+
 /* Suggestions for Adventure List: */
 
 #todo-table{
@@ -125,4 +145,14 @@ button{
     justify-content: space-evenly;
 }
 
+/* footer styles */
 
+#footer-class {
+    position: ; 
+    text-align:center; 
+    width:100%; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background:#090d13;
+    bottom: ;
+}

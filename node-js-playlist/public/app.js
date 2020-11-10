@@ -50,11 +50,13 @@ var app = express();
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false});
 
+
+
 // sets up the template engine
 app.set('view engine', 'ejs'); 
-// servest up static files 
+// serves up static files 
 app.use('/assets', express.static('assets'));
-app.use(express.static('./public'));
+// app.use('../public', express.static('public'));
 
 
 // fires controllers
@@ -63,6 +65,8 @@ todoController(app);
 app.get('/', function(req, res){
     res.render('index');
 });
+
+//contact page
 
 app.get('/contact', function(req, res){
     res.render('contact', {qs: req.query});
