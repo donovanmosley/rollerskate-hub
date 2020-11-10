@@ -43,6 +43,8 @@
 // server.listen(3000, '127.0.0.1');
 // console.log('On port 3000');
 
+
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var todoController = require('./controllers/todoController');
@@ -56,7 +58,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false});
 app.set('view engine', 'ejs'); 
 // serves up static files 
 app.use('/assets', express.static('assets'));
-// app.use('../public', express.static('public'));
+// app.use('public', express.static('./public'));
 
 
 // fires controllers
@@ -81,6 +83,7 @@ app.get('/profile/:name', function(req, res){
     var data = {age: 29, job: 'ninja', hobbies: ['eating', 'fighting', 'fishing']};
     res.render('profile', {person: req.params.name, data: data});
 });
+
 
 // Listens to port
 app.listen(3000);

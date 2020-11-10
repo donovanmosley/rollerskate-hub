@@ -4,7 +4,7 @@ var data = [{item: 'get milk'}, {item: 'walk dog'}, {item: 'kick some coding but
 
 module.exports = function(app){
     
-    app.get('/index', function(req, res){
+    app.get('/', function(req, res){
         res.render('index', {todos: data});
     });
 
