@@ -292,10 +292,15 @@ button {
 
 #centerThings {
     display: flex;
+    /* text-align: center; */
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     width: 50vw;
+}
+
+#contact-form {
+   
 }
 
 #centerThings label {

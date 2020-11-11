@@ -50,8 +50,12 @@ var bodyParser = require('body-parser');
 var todoController = require('./controllers/todoController');
 var app = express();
 
+
+
 var urlencodedParser = bodyParser.urlencoded({ extended: false});
 
+var jsonfile = require('jsonfile');    
+var file = 'writeMe.json'
 
 
 // sets up the template engine
@@ -76,6 +80,7 @@ app.get('/contact', function(req, res){
 
 app.post('/contact', urlencodedParser, function(req, res){
     console.log(req.body);
+    jsonfile.writeFileSync(file, {data: req.body});
     res.render('contact-success', {data: req.body});
 });
 
