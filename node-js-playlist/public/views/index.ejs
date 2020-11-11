@@ -13,19 +13,19 @@
     <body>
         <%- include('partials/nav'); %>
 
-        <h1>Welcome to the most awesome website on the net (index on ejs)</h1>
-        <p>You won't find a website better anywhere else!</p>
+        <h1>Welcome to the Rollerskate Hub!</h1>
 
         <%- include('partials/firstEJSTemplate'); %>
 
-        <img src="/assets/liners.jpg" />
+        <img class="hero" src="/assets/inline-group.jpg" />
 
-
+        
         <h1>Maintenance Guide:</h1>
+        <div id="maintenance">
         <select name="cmbitems" onchange="selectValue(this)" id="cmbitems" id="txtprice" class="selectbox"></select>
-        <img id="imageId" alt="Manual Image" style="width:304px; height:288px; display: block; margin-left: 20px;" src='/assets/liners.jpg'>
+        <img id="imageId" alt="Manual Image" style="width:304px; height:288px; display: block; margin: 20px;" src='/assets/liners.jpg'>
         <textarea type="text" name="txtprice" id="txtprice" class="textbox" onClick="checkPrice()"></textarea>
-
+        </div>
 
         <!-- https://github.com/bartekus/todo-js-basic/blob/master/index.html -->
 
