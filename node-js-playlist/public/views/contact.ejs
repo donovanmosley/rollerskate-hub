@@ -7,33 +7,23 @@
     </head>
 
     <body>
-        <div class="logo">LOGO</div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Parks</a></li>
-                    <li><a href="#">Inline Maintenance</a></li>
-                    <li><a href="#">Roller Community</a></li>
-                </ul>
-            </nav>
-            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
-            </div>  
-        
             <%- include('partials/nav'); %> 
             <h1>Welcome to the contact page ejs</h1>
             <p>You won't find a website better anywhere else!</p>
             <!-- <p><%= qs.person %></p> -->
 
+            <div id=centerThings>
             <form id="contact-form" method="POST" action="/contact">
-                <label for="who">Who do you want to contact?</label>
-                <input type="text" name="who" value="<%= qs.person %>">
-                <label for="department">Which department?</label>
-                <input type="text" name="department" value="<%= qs.dept %>">
-                <label for="email">Enter your email here:</label>
-                <input type="text" name="email" />
-                <input type="submit" name="submit" />
+                <label for="who"><span class="required">*Who do you want to contact?</span></label>
+                <input placeholder="inline expert member name" required type="text" name="who" value="<%= qs.person %>">
+                <label for="department"><span class="required">*Which department?</span></label>
+                <input placeholder="services, etc." required type="text" name="department" value="<%= qs.dept %>">
+                <label for="email"><span class="required">*Enter your email here:</span></label>
+                <input placeholder="name@email.com" required type="text" name="email" />
+                <button type="submit" name="submit">Submit</button>
             </form>
+            </div>
+            
 
         <!-- <script type="text/javascript" src="js/scripts.js"></script> -->
  
