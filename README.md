@@ -2,7 +2,7 @@
 
 ![rollerskate-hub logo](https://github.com/donovanmosley/rollerskate-hub/blob/master/node-js-playlist/public/assets/inline-group.jpg?raw=true)
 
-Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:
+**Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:**
 
 * An ejs timestamp for displaying current date and time
 * An inline skating **Maintenance Guide** displaying dynamic json topics, images, and descriptions.  Using a drop down selector users can view do-it-yourself categories and start learning more about how to properly maintain their skating equipment.   
@@ -11,7 +11,7 @@ Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number
 * A contact form, with accessibility features, and form email validation.  All the input data is stored locally on a json file (writeMe.json).  Upon completing the form users will receive an email with the inputed data confirming who is being contact, which department, and what email address will be replied to.
 * Responsive design and Media Queries
 
-Rollerstake Hub is a project that satisfies Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I included while building the app are:
+**Rollerstake Hub is a project that satisfies Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I included while building the app are:**
 
 * Reading and parsing an external file (such as JSON or CSV) into your application and display some data from that in my app - manual.json data to the Maintenance Guide form
 * Creating a form and saving the values (on click of Submit button) to an external file - Contact form input to writeMe.json
