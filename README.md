@@ -8,12 +8,12 @@
 * An inline skating **Maintenance Guide** displaying dynamic json topics, images, and descriptions.  Using a drop down selector users can view do-it-yourself categories and start learning more about how to properly maintain their skating equipment.   
 * A **Skaters Adventure Todo List**. Users can add and delete essential todo items for preparing for their next adventure ride.
 * A **Yelp API skating business resource list**.  This search engine accepts a zip code and optional mile radius selector that displays skating businesses with their associated information (name, address, contact number, and rating).  Equipped with this knowledge users can make better decisions on where to spend their time doing what they love, skating! 
-* A contact form, with accessibility features, and form email validation.  All the input data is **stored locally on a json file** (writeMe.json).  Upon completing the form users will receive an email with the inputed data confirming who is being contact, which department, and what email address will be replied to.
+* A contact form with accessibility features and email validation.  All input data is **stored locally on a json file** (writeMe.json).  Upon completing the form users will receive an email with the inputed data confirming who is being contacted, which department, and what email address will be replied to.
 * Responsive design and Media Queries
 
-**Rollerstake Hub is a project that satisfies Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I included while building the app are:**
+**rollerstake-hub is a coding project that successfully satisfied Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I chose for building the app are:**
 
-* Reading and parsing an external file (such as JSON or CSV) into your application and display some data from that in my app - manual.json data to the Maintenance Guide form
+* Reading and parsing an external file (such as JSON or CSV) into your application and display data from that in the app - manual.json data to the Maintenance Guide form
 * Creating a form and saving the values (on click of Submit button) to an external file - Contact form input to writeMe.json
 * Creating an array, dictionary or list, populating it with multiple values, retrieving at least one value, and using or display it in your application - Maintenance Guide library
 * Retrieve data from an external API and display data in your app (such as with fetch() or with AJAX) - Yelp api business data for skating businesses
