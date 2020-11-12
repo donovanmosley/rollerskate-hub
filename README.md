@@ -2,7 +2,7 @@
 
 ![GitHub Logo](/assets/inline-group.jpg)
 
-![alt text](https://github.com/donovanmosley/rollerskate-hub/blob/master/assets/inline-group.jpg?raw=true)
+![rollerskate-hub logo](https://github.com/donovanmosley/rollerskate-hub/blob/master/node-js-playlist/public/assets/inline-group.jpg?raw=true)
 
 Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:
 
