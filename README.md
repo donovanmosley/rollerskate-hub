@@ -2,6 +2,8 @@
 
 ![GitHub Logo](/assets/inline-group.jpg)
 
+![alt text](https://github.com/donovanmosley/rollerskate-hub/blob/master/assets/inline-group.jpg?raw=true)
+
 Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:
 
 * An ejs timestamp that displaying the current time
