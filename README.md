@@ -1,6 +1,6 @@
 # rollerskate-hub
 
-![GitHub Logo](assets/inline-group.jpg)
+![GitHub Logo](/assets/inline-group.jpg)
 
 Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:
 
