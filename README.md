@@ -4,7 +4,7 @@
 
 Rollerskate Hub is a rollerskating enthusiasts dream website!  It hosts a number of features including:
 
-* An ejs timestamp that displaying the current time
+* An ejs timestamp for displaying current date and time
 * An inline skating Maintenance Guide displaying dynamic json topics, images, and descriptions.  Using a drop down selector so users can view categories and start learning more about how to properly maintain their skating equipment.   
 * A Skaters Adventure Todo List. Users can add and delete essential todo items for preparing for their next adventure ride.
 * A Yelp API skating business resource list.  This search engine accepts a zip code and optional mile radius selector that displays skating businesses with their associated information (name, address, contact number, and rating).  Equipped with this knowledge users can make better decisions on where to spend their time doing what they love, skating! 
