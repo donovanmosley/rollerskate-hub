@@ -59,8 +59,8 @@ p {
   /* default css end */
   /* navbar regular css start */
 .navbar-area {
-    background: rgba(0,0,0,.6);
-    border-bottom: 1px solid #000;
+    background: rgba(0,0,0);
+    /* border-bottom: 1px solid #000; */
   }
   .site-navbar {
     display: flex;
@@ -73,6 +73,7 @@ p {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    padding: 20px;
   }
   .site-navbar ul {
     margin: 0;
@@ -424,6 +425,11 @@ button {
       max-height: 100vh;
       overflow: visible;
     }
+
+    button {
+      width: 13%;
+    }
+
     .intro-area h2 {
       font-size: 36px;
       margin-bottom: 15px;
