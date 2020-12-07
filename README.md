@@ -11,7 +11,7 @@
 * A contact form with accessibility features and email validation.  All input data is **stored locally on a json file** (writeMe.json).  Upon completing the form users will receive a notification with the user inputed data confirming who is being contacted, which department, and what email address will be replied to.
 * Responsive design and Media Queries
 
-## **rollerstake-hub is a coding project that successfully satisfied Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I chose for building the app are:**
+## **rollerstake-hub is a project that successfully satisfied Code Louisville's requirements for the September 2020 cohort.  Some of the technical features I chose for building the app are:**
 
 * Reading and parsing an external file (such as JSON or CSV) into my application and display data from that in the app -> manual.json data to the Maintenance Guide form
 * Creating a form and saving the values (on click of Submit button) to an external file -> Contact form input to writeMe.json
@@ -23,7 +23,7 @@
 
 * Installing npm
 * Installing dependencies: express, jsonfile, ejs, body-parser
-* Running the app on port 3000 - http://localhost:3000/
+* Running the app on port 3000 - http://localhost:3000/: From the terminal: cd node-js-playlist/, cd public/, and nodemon app.js
 
 From the repository page on GitHub, click the **Clone** or download green button, and in the **“Clone with HTTPs”** section, copy the URL for the *rollerskate-hub* repository. Next, on your local machine, open your bash shell and change the current working directory to the location where you would like to clone the repository. Once you have navigated to the directory where you would like to put the repository, use: git clone https://github.com/donovanmosley/rollerskate-hub 
 
