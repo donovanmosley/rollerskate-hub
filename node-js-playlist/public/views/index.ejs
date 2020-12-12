@@ -12,7 +12,41 @@
     <body>
         <%- include('partials/nav'); %>
 
-        <img class="hero" src="/assets/inline-group.jpg" />
+        <!-- <img class="hero" src="/assets/inline-group.jpg" /> -->
+
+          <!-- Codepen slider -->
+
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="/assets/inline-group.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="/assets/inline-group.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="/assets/inline-group.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+
         <h1>Welcome to the Rollerskate Hub!</h1>
         <%- include('partials/firstEJSTemplate'); %>
 
@@ -72,6 +106,7 @@
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="/assets/scripts.js"></script>
         <script type="text/javascript" src="/assets/manual.js"></script>
+        <script type="text/javascript" src="/assets/slider.js"></script>
 
     </body>
     <!-- <footer id="footer-class">
